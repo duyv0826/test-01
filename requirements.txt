@@ -1,0 +1,40 @@
+# Practical Python Project Dependencies
+
+# Core utilities
+requests>=2.31.0       # HTTP library for API calls
+python-dotenv>=1.0.0  # Load environment variables from .env
+
+# Data processing
+pandas>=2.0.0          # Data analysis and manipulation
+numpy>=1.24.0           # Numerical computing
+
+# Database
+sqlalchemy>=2.0.0       # SQL toolkit and ORM
+pymysql>=1.1.0          # MySQL driver (if using MySQL)
+psycopg2-binary>=2.9.0 # PostgreSQL driver (if using PostgreSQL)
+
+# API & Web
+fastapi>=0.100.0        # Modern web framework
+uvicorn>=0.23.0         # ASGI server
+httpx>=0.24.0           # Next generation HTTP client
+
+# Utilities
+pydantic>=2.0.0         # Data validation
+python-dateutil>=2.8.0  # Date/time utilities
+pytz>=2023.0            # Timezone library
+
+# Testing
+pytest>=7.4.0           # Testing framework
+pytest-cov>=4.1.0       # Coverage reporting
+
+# Logging
+colorlog>=6.7.0         # Colored log output
+
+# CLI
+click>=8.1.0            # Command line interface
+
+# Development (optional, uncomment to use)
+# black>=23.0.0          # Code formatter
+# flake8>=6.0.0          # Linting
+# mypy>=1.5.0            # Type checking
+# isort>=5.12.0          # Import sorting
